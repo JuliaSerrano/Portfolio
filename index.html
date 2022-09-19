@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="assets/css/styles.css">
 
         <!-- =====FAV ICONS===== -->
-        <link href='assets/img/favicon.png' rel='shortcut icon'>
+        <link href='assets/img/favicon-J.png' rel='shortcut icon'>
 
         <!-- =====BOX ICONS===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
@@ -19,7 +19,7 @@
         <header class="l-header">
             <nav class="nav bd-grid">
                 <div>
-                    <a href="#" class="nav__logo">Julia</a>
+                    <a href="#" class="nav__logo"></i>Julia</a>
                 </div>
 
                 <div class="nav__menu" id="nav-menu">
@@ -81,18 +81,111 @@
                     <div>
                         <h2 class="about__subtitle">I'm Julia</h2>
                         <p class="about__text">I'm a third-year student of Computer Engineering at the Universidad Politécnica de Madrid. I'm an enthusiastic, responsible and hard working person who likes to explore new technologies and develop software solutions.
-                            I'm excited to be a part of a team and to learn new skills.</p>           
+                            I'm excited to be part of a team and to learn new skills.</p>           
                     </div>                                   
                 </div>
             </section>
 
 
             <!--===== EDUCATION & CERTIFICATES =====-->
-            <section class="ed section" id="education">
+            <section class="qualification section" id="education">
                 <h2 class="section-title">Education & Certificates</h2>
+                
+                <div class="qualification__container container">
+                    <div class="qualification__tabs">
+                        <div class="qualification__button button--flex qualification__active" data-target = '#education_block'>
+                            <i class='bx bxs-graduation qualification__icon'></i>
+                            Education
+                        </div>
 
-                <div class="work__container bd-grid">
+                        <div class="qualification__button button--flex" data-target="#certificates">
+                            <i class='bx bxs-certification qualification__icon' ></i>
+                            Certificates
+                        </div>
+                    </div>
+                </div>
                    
+
+                <div class="qualification__sections">
+                     <!--===== QUALIFICATION CONTENT 1 - EDUCATION =====-->
+                    <div class="qualification__content qualification__active" data-content id="education_block">
+                        <!--===== Qualification 1 =====-->
+                        <div class="qualification__data">
+                            <div class="qualification__container bd-grid">
+
+                                <div>
+                                    <h3 class="qualification__title" >Computer Engineering</h3>
+                                    <span class="qualification__subtitle">Madrid - UPM</span>
+                                    <div class="qualification__calendar">
+                                        <i class='bx bxs-calendar'></i>
+                                        2020-2025
+                                    </div>
+                                </div>
+                               
+
+                                <div class="qualification__img">
+                                    <img src="assets/img/education.svg" alt="">
+                                </div>
+                            </div>
+
+             
+                        </div>
+                    </div>
+                       
+
+                    <!--===== QUALIFICATION CONTENT 2 - CERTIFICATES =====-->
+                    
+                    <div class="qualification__content" data-content id="certificates" >
+                        <!--===== Qualification 1 =====-->
+                        <div class="qualification__data" >
+                            <div class="qualification__container bd-grid" >
+
+                                <div>
+                                    <h3 class="qualification__title" >Front-End Web UI Frameworks and Tools: Bootstrap 4</h3>
+                                    <span class="qualification__subtitle">HTML, CSS, JS, Node, Bootstrap</span>
+                                    <p class="qualification__subtitle">This course gives you an overview of client-side web UI frameworks, in particular Bootstrap 4.</p>
+
+                                    <div class="qualification__calendar">
+                                        <i class='bx bxs-calendar'></i>
+                                        Nov 2020- Feb 2021
+                                    </div>
+                                </div>
+                               
+
+                                <div class="qualification__img">
+                                    <img src="assets/img/hon_kong_uni_logo_resize.png" alt="">
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="qualification__data">
+                           
+                            <div class="qualification__container bd-grid">
+
+                                <div>
+                                    <h3 class="qualification__title" >End-to-End Machine Learning with TensorFlow on Google Cloud</h3>
+                                    <span class="qualification__subtitle">TensorFlow, Machine Learning </span>
+                                    <p class="qualification__subtitle">This course teaches you how to build scalable, accurate, and production-ready models for structured data.</p>
+
+                                    <div class="qualification__calendar">
+                                        <i class='bx bxs-calendar'></i>
+                                        Sep 2022
+                                    </div>
+                                </div>
+                               
+
+                                <div class="qualification__img">
+                                    <img src="assets/img/google-cloud.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                </div>
+
+
                 </div>
             </section>
 
