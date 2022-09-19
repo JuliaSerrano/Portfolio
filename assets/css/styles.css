@@ -411,7 +411,7 @@ img {
 
 
 .qualification__container{
-  margin-top: 5rem;
+  margin-top: 3rem;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   text-align: initial;
@@ -519,6 +519,10 @@ img {
 
 .skills .bxs-badge-check{
   font-size: 1rem;
+  color: var(--first-color);
+}
+.skill_icon{
+  font-size: 2rem;
   color: var(--first-color);
 }
 
