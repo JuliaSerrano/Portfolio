@@ -335,8 +335,9 @@ img {
 .home__social-icon {
   width: max-content;
   margin-bottom: var(--mb-2);
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: var(--second-color);
+  
 }
 
 .home__social-icon:hover {
@@ -416,7 +417,7 @@ img {
   text-align: initial;
 }
 .qualification__img{
-  width: 300px;
+  width: 200px;
 }
 .qualification__tabs{
   display: flex;
@@ -595,9 +596,12 @@ img {
 }
 
 .footer__icon {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #fff;
   margin: 0 var(--mb-2);
+}
+.footer__icon:hover{
+  color: var(--first-color);
 }
 
 .footer__copy {
@@ -610,12 +614,13 @@ img {
   .home {
     row-gap: 2rem;
   }
-  .home__img {
-    width: 200px;
-  }
+  
  
   .home__buttons{
     flex-direction: column;
+  }
+  .qualification__img{
+    display: none;
   }
   .skills__box{
     column-gap: 1rem;
@@ -627,6 +632,7 @@ img {
   .qualification__data{
     gap: .5rem;
   }
+  
 
 
 
@@ -663,10 +669,12 @@ img {
   .skills__content{
     padding: 2rem 4rem;
   }
-  .work__container {
+  .qualification__container {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
     padding-top: 2rem;
+    align-items: center;
+    text-align: initial;
   }
   .contact__form {
     width: 360px;
@@ -679,10 +687,9 @@ img {
     justify-content: center;
     display:grid;
     grid-template-columns: .9fr;
-    
-
-
   }
+  
+  
 }
 
 /*  */
@@ -744,6 +751,8 @@ img {
     
   }
   
+  
+  
   .skills__container {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem; 
@@ -752,7 +761,7 @@ img {
     
   }
 
-  .work__container {
+  .qualifications__container {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 2rem;
   }
