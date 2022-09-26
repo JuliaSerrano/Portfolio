@@ -565,9 +565,7 @@ img {
   transform: scale(1.1);
   
 }
-.work-project{
-  
-}
+
 .work__title{
   font-size: var(--h2-font-size);
   font-weight: var(--font-medium);
@@ -621,6 +619,9 @@ img {
 .footer__title {
   font-size: 2rem;
   margin-bottom: var(--mb-4);
+}
+.footer__title:hover{
+  color: var(--first-color);
 }
 
 .footer__social {
