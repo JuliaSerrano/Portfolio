@@ -1,571 +1,786 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="assets/css/styles.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- =====FAV ICONS===== -->
-        <link href='assets/img/favicon-J.png' rel='shortcut icon'>
+    <link rel="stylesheet" href="assets/css/styles.css">
 
-        <!-- =====BOX ICONS===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <!-- =====FAV ICONS===== -->
+    <link href='assets/img/favicon-J.png' rel='shortcut icon'>
 
-        
-        <!-- =====FONTAWESOME ICONS===== -->
-        <script src="https://kit.fontawesome.com/3eab2f12ee.js" crossorigin="anonymous"></script>
-        
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-        <!-- =====DEVICON ICONS===== -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-          
-        <title>Portfolio website complete</title>
-    </head>
-    <body>
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
-                <div>
-                    <a href="#" class="nav__logo"></i>Julia</a>
-                </div>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                    </ul>
-                </div>
+    <!-- =====FONTAWESOME ICONS===== -->
+    <script src="https://kit.fontawesome.com/3eab2f12ee.js" crossorigin="anonymous"></script>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
 
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">
-                <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I'm <span class="home__title-color" >Julia</span><br> Software Engineer</h1>
-                    <div class="home__buttons">
-                        <a href="#contact" class="button button--ghost">Contact</a>
-                        <a download = "" href="assets/pdf/CV.pdf" class="button">Download CV</a>
-                    </div>
-                    
-                </div>
+    <!-- =====DEVICON ICONS===== -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 
-                <div class="home__social">
-                    <a href="https://www.linkedin.com/in/julia-serrano-arrese-b68966245" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="https://github.com/JuliaSerrano" class="home__social-icon"><i class='bx bxl-github' ></i></a>
-                    <a href="mailto:jserranoarrese@gmail.com" class ="home__social-icon"><i class='bx bxs-envelope'></i></a>
-                </div>
+    <title>Portfolio website complete</title>
+</head>
 
-                <div class="home__img">
-                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <mask id="mask0" mask-type="alpha">
-                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                        </mask>
-                        <g mask="url(#mask0)">
-                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                            <image class="home__blob-img" x="50" y="60" href="assets/img/FotoCarnet-removebg-preview_2.png"/>
-                        </g>
-                    </svg>
-                </div>
-            </section>
-
-            <!--===== ABOUT =====-->
-            <section class="about section " id="about">
-                <h2 class="section-title">About</h2>
-
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="assets/img/girl_coding.svg" alt="">
-                    </div>
-                    
-                    <div>
-                        <h2 class="about__subtitle">I'm Julia</h2>
-
-                        <p class="about__text">I'm a Software Developer Intern at Ericsson, currently completing a Bachelor's in Computer Engineering at Universidad Politécnica de Madrid. Skilled in Java, Python, Go, C, and cloud technologies, I'm passionate about developing efficient, scalable software solutions.</p>                    </div>                                   
-                </div>
-            </section>
-
-
-            <!--===== EDUCATION & CERTIFICATES =====-->
-            <section class="qualification section" id="education">
-                <h2 class="section-title">Education & Certificates</h2>
-                
-                <div class="qualification__container container">
-                    <div class="qualification__tabs">
-                        <div class="qualification__button button--flex qualification__active" data-target = '#education_block'>
-                            <i class='bx bxs-graduation qualification__icon'></i>
-                            Education
-                        </div>
-
-                        <div class="qualification__button button--flex" data-target="#certificates">
-                            <i class='bx bxs-certification qualification__icon' ></i>
-                            Certificates
-                        </div>
-                    </div>
-                </div>
-                   
-
-                <div class="qualification__sections">
-                     <!--===== QUALIFICATION CONTENT 1 - EDUCATION =====-->
-                    <div class="qualification__content qualification__active" data-content id="education_block">
-                        <!--===== Qualification 1 =====-->
-                        <div class="qualification__data">
-                            <div class="qualification__container bd-grid">
-
-                                <div >
-                                    <h3 class="qualification__title" >Computer Engineering</h3>
-                                    <span class="qualification__subtitle">Madrid - UPM</span>
-                                    <div class="qualification__calendar">
-                                        <i class='bx bxs-calendar'></i>
-                                        2020-2024
-                                    </div>
-                                </div>
-                               
-
-                                <div class="qualification__img" style="width: 300px;">
-                                    <a href = "https://www.upm.es/"><img id = "test" src="assets/img/logo-upm.png" alt=""></a>
-                                </div>
-                            </div>
-
-             
-                        </div>
-                    </div>
-                       
-
-                    <!--===== QUALIFICATION CONTENT 2 - CERTIFICATES =====-->
-                    
-                    <div class="qualification__content" data-content id="certificates" >
-                        <!--===== Qualification 1 =====-->
-                        <div class="qualification__data" >
-                            <div class="qualification__container bd-grid" >
-
-                                <div>
-                                    <h3 class="qualification__title" >Front-End Web UI Frameworks and Tools: Bootstrap 4</h3>
-                                    <span class="qualification__subtitle">HTML, CSS, JS, Node, Bootstrap</span>
-                                    <p class="qualification__subtitle">This course gives you an overview of client-side web UI frameworks, in particular Bootstrap 4.</p>
-
-                                    <div class="qualification__calendar">
-                                        <i class='bx bxs-calendar'></i>
-                                        Nov 2020- Feb 2021
-                                    </div>
-                                </div>
-                               
-
-                                <div class="qualification__img">
-                                    <a href="https://coursera.org/share/ce46240e41a201fe7330a4644c1168c0"><img src="assets/img/hon_kong_uni_logo_resize.png" alt=""></a>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <!--===== Qualification 2 =====-->
-
-                        <div class="qualification__data">
-                           
-                            <div class="qualification__container bd-grid">
-
-                                <div>
-                                    <h3 class="qualification__title" >AWS Academy Cloud Foundations</h3>
-                                    <span class="qualification__subtitle">EC2, RDS, S3, VPC, ELB</span>
-                                    <p class="qualification__subtitle">AWS Academy Cloud Foundations course where I developed a comprehensive understanding of essential AWS services.</p>
-
-                                    <div class="qualification__calendar">
-                                        <i class='bx bxs-calendar'></i>
-                                        Sep 2022
-                                    </div>
-                                </div>
-                               
-
-                                <div class="qualification__img">
-                                    <img src="assets/img/amazon_web_services_logo.jpeg" alt="">
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="qualification__data">
-                           
-                            <div class="qualification__container bd-grid">
-
-                                <div>
-                                    <h3 class="qualification__title" >Certified Golang Developer</h3>
-                                    <span class="qualification__subtitle">Golang</span>
-                                    <p class="qualification__subtitle">
-                                        The Golang course equipped me with key programming skills, including Go syntax, concurrency, memory management, and API creation.</p>
-
-                                    <div class="qualification__calendar">
-                                        <i class='bx bxs-calendar'></i>
-                                        Sep 2022
-                                    </div>
-                                </div>
-                               
-
-                                <div class="qualification__img">
-                                    <img src="assets/img/uc3_logo.jpeg" alt="">
-                                </div>
-                            </div>
-                        </div>
-
-                        
-                    </div>
-                </div>
-
-
-                </div>
-            </section>
-
-
-
-
-
-
-
-
-
-
-
-
-            <!--===== SKILLS =====-->
-            <section class="skills section" id="skills">
-                <h2 class="section-title">My Experience</h2>
-                
-                <div class="skills__container container grid">
-                     <!--===== SKILL 1: Frontend =====-->
-
-                    <div class="skills__content">
-                        <h3 class="skills__title">Frontend</h3>
-
-                        <div class="skills__box">
-                            <div class="skills__group">
-                                <div class="skills__data">
-                                    <i class='bx bxl-html5 skill_icon'></i>
-
-                                    <div>
-                                        <h3 class="skills__name">HTML</h3>
-                                        <span class="skills__level">Intermediate</span>
-
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <i class='bx bxl-css3 skill_icon'></i>
-
-                                    <div>
-                                        <h3 class="skills__name">CSS</h3>
-                                            <span class="skills__level">Intermediate</span>
-                                        
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <i class='bx bxl-javascript skill_icon' ></i>
-
-                                    <div>
-                                        <h3 class="skills__name">Javascript</h3>
-                                            <span class="skills__level">Basic</span>
-                                        </h3>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="skills__group">
-                                <div class="skills__data">
-                                    <i class='bx bxl-bootstrap skill_icon' ></i>
-
-                                    <div>
-                                        <h3 class="skills__name">Bootstrap</h3>
-                                            <span class="skills__level">Basic</span>
-                                        
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-
-                     <!--===== SKILL 2: Backend =====-->
-                    <div class="skills__content">
-                        <h3 class="skills__title">Backend</h3>
-
-                        <div class="skills__box">
-                            <div class="skills__group">
-                                <div class="skills__data">
-                                    <i class="fa-brands fa-java skill_icon" ></i>
-
-                                    <div>
-                                        <h3 class="skills__name">Java</h3>
-                                            <span class="skills__level">Intermediate</span>
-                                        
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <i class="fa-brands fa-python skill_icon"></i>
-
-                                    <div>
-                                        <h3 class="skills__name">Python</h3>
-                                            <span class="skills__level">Intermediate</span>
-                                        
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-
-
-                                    <i class="devicon-c-plain skill_icon"></i>
-                                    <div>
-                                        <h3 class="skills__name">C</h3>
-                                            <span class="skills__level">Basic</span>
-                                        </h3>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="skills__group">
-                                <div class="skills__data">
-                                    
-                                    <i class="devicon-mysql-plain skill_icon"></i>
-          
-
-                                    <div>
-                                        <h3 class="skills__name">MySql, SQLite</h3>
-                                            <span class="skills__level">Basic</span>
-                                        
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    
-                                    <i class="devicon-flask-original skill_icon"></i>
-          
-
-                                    <div>
-                                        <h3 class="skills__name">Flask</h3>
-                                            <span class="skills__level">Basic</span>
-                                        
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    
-                                    <i class="devicon-go-original-wordmark skill_icon"></i>
-          
-
-                                    <div>
-                                        <h3 class="skills__name">Go</h3>
-                                            <span class="skills__level">Intermediate</span>
-                                        
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                     <!--===== SKILL 3: DevOps =====-->
-                     <div class="skills__content">
-                        <h3 class="skills__title">DevOps</h3>
-
-                        <div class="skills__box">
-                            <div class="skills__group">
-                                <div class="skills__data">
-                                    <i class="devicon-kubernetes-plain skill_icon" ></i>
-
-                                    <div>
-                                        <h3 class="skills__name">Kubernetes</h3>
-                                            <span class="skills__level">Basic</span>
-                                        
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <i class="devicon-docker-plain skill_icon"></i>
-
-                                    <div>
-                                        <h3 class="skills__name">Docker</h3>
-                                            <span class="skills__level">Basic</span>
-                                        
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <div class="skills__group">
- 
-                                <div class="skills__data">
-
-
-                                    <i class="devicon-bash-plain skill_icon"></i>
-                                    <div>
-                                        <h3 class="skills__name">Bash</h3>
-                                            <span class="skills__level">Intermediate</span>
-                                        </h3>
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    
-                                    <i class="devicon-grafana-original skill_icon"></i>
-          
-
-                                    <div>
-                                        <h3 class="skills__name">Grafana</h3>
-                                            <span class="skills__level">Basic</span>
-                                        
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-
-                     <!--===== SKILL 4: Tools and Cloud =====-->
-                     <div class="skills__content">
-                        <h3 class="skills__title">Tools and Cloud</h3>
-
-                        <div class="skills__box">
-                            <div class="skills__group">
-                                <div class="skills__data">
-                                    <i class="devicon-git-plain skill_icon" ></i>
-
-                                    <div>
-                                        <h3 class="skills__name">Git</h3>
-                                            <span class="skills__level">Intermediate</span>
-                                        
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <i class="devicon-github-original skill_icon"></i>
-
-                                    <div>
-                                        <h3 class="skills__name">GitHub</h3>
-                                            <span class="skills__level">Intermediate</span>
-                                        
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <div class="skills__group">
-                                <div class="skills__data">
-                                
-                                    <i class="fa-brands fa-jira skill_icon"></i>
-            
-
-                                    <div>
-                                        <h3 class="skills__name">Jira</h3>
-                                            <span class="skills__level">Basic</span>
-                                        
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    
-                                    <i class="fa-brands fa-aws skill_icon"></i>
-            
-
-                                    <div>
-                                        <h3 class="skills__name">AWS</h3>
-                                            <span class="skills__level">Basic</span>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                                
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-
-            </section>
-
-
-            <!--===== PROJECTS =====-->
-            <section class="work section" id="work">
-                <h2 class="section-title">Projects</h2>
-
-                <div class="work__container bd-grid">
-                    <div class="work-project">
-                        <a href="https://properties-scraper.onrender.com/" class="work__img">
-                            <img src="assets/img/scraper.png" alt="">
-                        </a>
-                        
-                        <h3 class="work__title">
-                            <a href="https://github.com/JuliaSerrano/WebScraping" class="work-icon"><i class='bx bxl-github'></i></a>Real Estate Scraper
-                        </h3>
-
-                    </div>
-
-                    <div class="work-project">
-                        <a href="" class="work__img">
-                            <img src="assets/img/portfolio.png" alt="" >
-                        </a>
-                        
-                        <h3 class="work__title">
-                            <a href="https://github.com/JuliaSerrano" class="work-icon"><i class='bx bxl-github'></i></a>Portfolio
-                        </h3>
-
-                    </div>
-                    <div class="work-project">
-                        <a href="https://github.com/JuliaSerrano/Arquitectura-de-Computadores" class="work__img">
-                            <img src="assets/img/procesador.jpg" alt="">
-                        </a>
-                        
-                        <h3 class="work__title">
-                            <a href="https://github.com/JuliaSerrano/Arquitectura-de-Computadores" class="work-icon"><i class='bx bxl-github'></i></a>I/O operations on a peripheral using interrupts
-                        </h3>
-
-                    </div>
-
-                </div>
-            </section>
-
-
-            
-            
-
-            <!--===== CONTACT =====-->
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
-
-                <div class="contact__container bd-grid">
-                    <form action="https://formsubmit.co/4066784a73722b9e286d9830c2b780ad" method="POST" class="contact__form">
-                        <input type="text" name="name" placeholder="Name" class="contact__input" required>
-                        <input type="email" name="email" required placeholder="Email" class="contact__input">
-                        <textarea name="message" id="" cols="0" rows="10" placeholder="Message" required class="contact__input"></textarea>
-                        <input type="submit" value="Enviar" class="contact__button button">
-                    </form>
-                </div>
-            </section>
-        </main>
-
-        <!--===== FOOTER =====-->
-        <footer class="footer">
-            <p class="footer__title">Julia</p>
-            <div class="footer__social">
-                <a href="https://www.linkedin.com/in/julia-serrano-arrese-b68966245" class="footer__icon"><i class='bx bxl-linkedin' ></i></a>
-                <a href="mailto:jserranoarrese@gmail.com" class="footer__icon"><i class='bx bxs-envelope' ></i></a>
-                <a href="https://github.com/JuliaSerrano" class="footer__icon"><i class='bx bxl-github' ></i></a>
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo"></i>Julia</a>
             </div>
-            <p class="footer__copy">&#169;Julia Serrano Arrese</p>
-        </footer>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Julia</span><br> Software Engineer
+                </h1>
+                <div class="home__buttons">
+                    <a href="#contact" class="button button--ghost">Contact</a>
+                    <a download="" href="assets/pdf/CV.pdf" class="button">Download CV</a>
+                </div>
+
+            </div>
+
+            <div class="home__social">
+                <a href="https://www.linkedin.com/in/julia-serrano-arrese-b68966245" class="home__social-icon"><i
+                        class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/JuliaSerrano" class="home__social-icon"><i class='bx bxl-github'></i></a>
+                <a href="mailto:jserranoarrese@gmail.com" class="home__social-icon"><i class='bx bxs-envelope'></i></a>
+            </div>
+
+            <div class="home__img">
+                <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <mask id="mask0" mask-type="alpha">
+                        <path
+                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                    </mask>
+                    <g mask="url(#mask0)">
+                        <path
+                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                        <image class="home__blob-img" x="50" y="60"
+                            href="assets/img/FotoCarnet-removebg-preview_2.png" />
+                    </g>
+                </svg>
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section" id="about">
+            <h2 class="section-title">About</h2>
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/girl_coding.svg" alt="">
+                </div>
+                <div>
+                    <p class="about__text">As a software engineer with a focus on backend and full-stack development,
+                        I'm dedicated to creating scalable, distributed systems and am always eager to take on new
+                        technical challenges.</p>
+                    <p class="about__text about__blog-cta">
+                        Read about my latest learnings on <a href="https://juliaserrano.github.io/" target="_blank"
+                            class="button button--ghost blog-btn">my blog</a>.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="work">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="work__timeline">
+
+                <div class="timeline__item">
+                    <div class="timeline__dot"></div>
+                    <div class="timeline__content">
+                        <h3 class="timeline__title">Software Engineer</h3>
+                        <h4 class="timeline__company">Thermo Fisher Scientific</h4>
+                        <span class="timeline__date">
+                            <i class='bx bxs-calendar'></i>
+                            September 2024 - Present
+                        </span>
+                        <p class="timeline__description">Contributed to a laboratory management system (LIMS), building
+                            and enhancing features for pharmaceutical clients. This work improved their productivity and
+                            data management through automation and centralized data access.</p>
+                    </div>
+                </div>
+
+                <div class="timeline__item">
+                    <div class="timeline__dot"></div>
+                    <div class="timeline__content">
+                        <h3 class="timeline__title">Software Engineer</h3>
+                        <h4 class="timeline__company">Ericsson</h4>
+                        <span class="timeline__date">
+                            <i class='bx bxs-calendar'></i>
+                            July 2023 - July 2024
+                        </span>
+                        <p class="timeline__description">Implemented a high-performance Go library to replace a legacy
+                            Kafka consumer, improving data communication in a critical 5G infrastructure.</p>
+                    </div>
+                </div>
+
+        </section>
 
 
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
 
-        <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
-    </body>
+        <!--===== EDUCATION & CERTIFICATES =====-->
+        <section class="qualification section" id="education">
+            <h2 class="section-title">Education & Certificates</h2>
+
+            <div class="qualification__container container">
+                <div class="qualification__tabs">
+                    <div class="qualification__button button--flex qualification__active"
+                        data-target='#education_block'>
+                        <i class='bx bxs-graduation qualification__icon'></i>
+                        Education
+                    </div>
+
+                    <div class="qualification__button button--flex" data-target="#certificates">
+                        <i class='bx bxs-certification qualification__icon'></i>
+                        Certificates
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="qualification__sections">
+                <!--===== QUALIFICATION CONTENT 1 - EDUCATION =====-->
+                <div class="qualification__content qualification__active" data-content id="education_block">
+                    <!--===== Qualification 1 =====-->
+                    <div class="qualification__data">
+                        <div class="qualification__container bd-grid">
+
+                            <div>
+                                <h3 class="qualification__title">Computer Engineering</h3>
+                                <span class="qualification__subtitle">Madrid - UPM</span>
+                                <div class="qualification__calendar">
+                                    <i class='bx bxs-calendar'></i>
+                                    2020-2024
+                                </div>
+                            </div>
+
+
+                            <div class="qualification__img upm-logo" style="width: 300px;">
+                                <a href="https://www.upm.es/"><img id="test" src="assets/img/logo-upm.png" alt=""></a>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+                <!--===== QUALIFICATION CONTENT 2 - CERTIFICATES =====-->
+
+                <div class="qualification__content" data-content id="certificates">
+                    <!--===== Qualification 1 =====-->
+                    <div class="qualification__data">
+
+                        <div class="qualification__container bd-grid">
+
+                            <div>
+                                <h3 class="qualification__title">Certified Golang Developer</h3>
+                                <span class="qualification__subtitle">Golang</span>
+                                <p class="qualification__subtitle">
+                                    The Golang course equipped me with key programming skills, including Go syntax,
+                                    concurrency, memory management, and API creation.</p>
+
+                                <div class="qualification__calendar">
+                                    <i class='bx bxs-calendar'></i>
+                                    Sep 2022
+                                </div>
+                            </div>
+
+
+                            <div class="qualification__img cert-img">
+                                <img src="assets/img/uc3_logo.jpeg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!--===== Qualification 1 =====-->
+                    <div class="qualification__data">
+
+                        <div class="qualification__container bd-grid">
+
+                            <div>
+                                <h3 class="qualification__title">Docker basics</h3>
+                                <span class="qualification__subtitle">Docker</span>
+                                <p class="qualification__subtitle">
+                                    This certification in Docker basics provided me with foundational knowledge of
+                                    containerization
+                                    and its applications in modern software development.
+                                </p>
+
+                                <div class="qualification__calendar">
+                                    <i class='bx bxs-calendar'></i>
+                                    Sep 2022
+                                </div>
+                            </div>
+
+
+                            <div class="qualification__img cert-img">
+                                <img src="assets/img/docker.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!--===== Qualification 2 =====-->
+
+                    <div class="qualification__data">
+
+                        <div class="qualification__container bd-grid">
+
+                            <div>
+                                <h3 class="qualification__title">AWS Academy Cloud Foundations</h3>
+                                <span class="qualification__subtitle">EC2, RDS, S3, VPC, ELB</span>
+                                <p class="qualification__subtitle">AWS Academy Cloud Foundations course where I
+                                    developed a comprehensive understanding of essential AWS services.</p>
+
+                                <div class="qualification__calendar">
+                                    <i class='bx bxs-calendar'></i>
+                                    Sep 2022
+                                </div>
+                            </div>
+
+
+                            <div class="qualification__img cert-img">
+                                <img src="assets/img/amazon_web_services_logo.jpeg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="qualification__data">
+                        <div class="qualification__container bd-grid">
+
+                            <div>
+                                <h3 class="qualification__title">Front-End Web UI Frameworks and Tools: Bootstrap 4
+                                </h3>
+                                <span class="qualification__subtitle">HTML, CSS, JS, Node, Bootstrap</span>
+                                <p class="qualification__subtitle">This course gives you an overview of client-side
+                                    web
+                                    UI frameworks, in particular Bootstrap 4.</p>
+
+                                <div class="qualification__calendar">
+                                    <i class='bx bxs-calendar'></i>
+                                    Nov 2020- Feb 2021
+                                </div>
+                            </div>
+
+
+                            <div class="qualification__img cert-img">
+                                <a href="https://coursera.org/share/ce46240e41a201fe7330a4644c1168c0"><img
+                                        src="assets/img/hon_kong_uni_logo_resize.png" alt=""></a>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+
+
+                </div>
+
+
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Tech Stack</h2>
+
+            <div class="skills__container container grid">
+                <!--===== SKILL 2: Backend =====-->
+                <div class="skills__content">
+                    <h3 class="skills__title">Backend</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="fa-brands fa-java skill_icon"></i>
+
+                                <div>
+                                    <h3 class="skills__name">Java</h3>
+                                    <span class="skills__level">Intermediate</span>
+
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class="fa-brands fa-python skill_icon"></i>
+
+                                <div>
+                                    <h3 class="skills__name">Python</h3>
+                                    <span class="skills__level">Intermediate</span>
+
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+
+
+                                <i class="devicon-c-plain skill_icon"></i>
+                                <div>
+                                    <h3 class="skills__name">C</h3>
+                                    <span class="skills__level">Basic</span>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills__group">
+                            <div class="skills__data">
+
+                                <i class="devicon-mysql-plain skill_icon"></i>
+
+
+                                <div>
+                                    <h3 class="skills__name">MySql, SQLite</h3>
+                                    <span class="skills__level">Intermediate</span>
+
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+
+                                <i class="devicon-flask-original skill_icon"></i>
+
+
+                                <div>
+                                    <h3 class="skills__name">Flask</h3>
+                                    <span class="skills__level">Basic</span>
+
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+
+                                <i class="devicon-go-original-wordmark skill_icon"></i>
+
+
+                                <div>
+                                    <h3 class="skills__name">Go</h3>
+                                    <span class="skills__level">Intermediate</span>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!--===== SKILL 1: Frontend =====-->
+
+                <div class="skills__content">
+                    <h3 class="skills__title">Frontend</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxl-html5 skill_icon'></i>
+
+                                <div>
+                                    <h3 class="skills__name">HTML</h3>
+                                    <span class="skills__level">Intermediate</span>
+
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxl-css3 skill_icon'></i>
+
+                                <div>
+                                    <h3 class="skills__name">CSS</h3>
+                                    <span class="skills__level">Intermediate</span>
+
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxl-javascript skill_icon'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Javascript</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxl-bootstrap skill_icon'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Bootstrap</h3>
+                                    <span class="skills__level">Basic</span>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--===== SKILL 3: DevOps =====-->
+                <div class="skills__content">
+                    <h3 class="skills__title">DevOps</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="devicon-kubernetes-plain skill_icon"></i>
+
+                                <div>
+                                    <h3 class="skills__name">Kubernetes</h3>
+                                    <span class="skills__level">Basic</span>
+
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class="devicon-docker-plain skill_icon"></i>
+
+                                <div>
+                                    <h3 class="skills__name">Docker</h3>
+                                    <span class="skills__level">Intermediate</span>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="skills__group">
+
+                            <div class="skills__data">
+
+
+                                <i class="devicon-bash-plain skill_icon"></i>
+                                <div>
+                                    <h3 class="skills__name">Bash</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                    </h3>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+
+                                <i class="devicon-grafana-original skill_icon"></i>
+
+
+                                <div>
+                                    <h3 class="skills__name">Grafana</h3>
+                                    <span class="skills__level">Basic</span>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!--===== SKILL 4: Tools and Cloud =====-->
+                <div class="skills__content">
+                    <h3 class="skills__title">Tools and Cloud</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="devicon-git-plain skill_icon"></i>
+
+                                <div>
+                                    <h3 class="skills__name">Git</h3>
+                                    <span class="skills__level">Intermediate</span>
+
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class="devicon-github-original skill_icon"></i>
+
+                                <div>
+                                    <h3 class="skills__name">GitHub</h3>
+                                    <span class="skills__level">Intermediate</span>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="skills__group">
+                            <div class="skills__data">
+
+                                <i class="fa-brands fa-jira skill_icon"></i>
+
+
+                                <div>
+                                    <h3 class="skills__name">Jira</h3>
+                                    <span class="skills__level">Basic</span>
+
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+
+                                <i class="fa-brands fa-aws skill_icon"></i>
+
+
+                                <div>
+                                    <h3 class="skills__name">AWS</h3>
+                                    <span class="skills__level">Basic</span>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            </div>
+
+
+
+        </section>
+
+
+        <!--===== PROJECTS =====-->
+        <section class="work section" id="work">
+            <h2 class="section-title">Projects</h2>
+
+            <div class="work__container bd-grid">
+                <div class="work-project">
+                    <a href="https://properties-scraper.onrender.com/" class="work__img">
+                        <img src="assets/img/scraper.png" alt="Real Estate Scraper">
+                    </a>
+                    <div class="project__details">
+                        <h3 class="project__title">
+                            <a href="https://github.com/JuliaSerrano/WebScraping" class="work-icon"><i
+                                    class='bx bxl-github'></i></a>
+                            Real Estate Scraper
+                        </h3>
+                        <div class="project__tech-stack">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">SQLite</span>
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work-project">
+                    <a href="https://github.com/JuliaSerrano/Social-Network-RESTful-Service" class="work__img">
+                        <img src="assets/img/api-project.png" alt="Social Network RESTful Service">
+                    </a>
+                    <div class="project__details">
+                        <h3 class="project__title">
+                            <a href="https://github.com/JuliaSerrano/Social-Network-RESTful-Service"
+                                class="work-icon"><i class='bx bxl-github'></i></a>
+                            API for a Social Media Platform
+                        </h3>
+                        <div class="project__tech-stack">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">JAX-RS</span>
+                            <span class="tech-tag">Tomcat</span>
+                            <span class="tech-tag">REST</span>
+                            <span class="tech-tag">JSON/XML</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work-project">
+                    <a href="https://github.com/JuliaSerrano/svg-editor" class="work__img">
+                        <img src="assets/img/svg-project.jpeg" alt="SVG Editor">
+                    </a>
+                    <div class="project__details">
+                        <h3 class="project__title">
+                            <a href="https://github.com/JuliaSerrano/svg-editor"
+                                class="work-icon"><i class='bx bxl-github'></i></a>
+                            SVG Editor
+                        </h3>
+                        <div class="project__tech-stack">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Maven</span>
+                            <span class="tech-tag">Unit testing</span>
+                            <span class="tech-tag">MVC</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="work-project">
+                    <a href="" class="work__img">
+                        <img src="assets/img/minishell.png" alt="">
+                    </a>
+                    <div class="project__details">
+                        <h3 class="project__title">
+                            <a href="" class="work-icon"><i class='bx bxl-github'></i></a>
+                            Minishell
+                        </h3>
+                        <p class="project__description">
+
+                        </p>
+                        <div class="project__tech-stack">
+                            <span class="tech-tag">C</span>
+                            <span class="tech-tag">Make</span>
+                            <span class="tech-tag">Concurrency</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work-project">
+                    <a href="https://github.com/JuliaSerrano/parkinson-voice-recognition-neural-network"
+                        class="work__img">
+                        <img src="assets/img/speech-recognition.jpg" alt="">
+                    </a>
+
+                    <div class="project__details">
+                        <h3 class="project__title">
+                            <a href="https://github.com/JuliaSerrano/parkinson-voice-recognition-neural-network"
+                                class="work-icon"><i class='bx bxl-github'></i></a>
+                            Parkinson Voice Recognition Neural Network
+                        </h3>
+                        <div class="project__tech-stack">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Jupyter Notebook</span>
+                            <span class="tech-tag">Tensorflow</span>
+                            <span class="tech-tag">Matplotlib</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work-project">
+                    <a href="https://github.com/JuliaSerrano/IA"
+                        class="work__img">
+                        <img src="assets/img/mapa-metroatenas.png" alt="">
+                    </a>
+
+                    <div class="project__details">
+                        <h3 class="project__title">
+                            <a href="https://github.com/JuliaSerrano/IA"
+                                class="work-icon"><i class='bx bxl-github'></i></a>
+                            Athens Metro Best Route Finder
+                        </h3>
+                        <div class="project__tech-stack">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">A* algorithm</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work-project">
+                    <a href="https://github.com/JuliaSerrano/Portfolio"
+                        class="work__img">
+                        <img src="assets/img/portfolio.png" alt="">
+                    </a>
+
+                    <div class="project__details">
+                        <h3 class="project__title">
+                            <a href="https://github.com/JuliaSerrano/Portfolio"
+                                class="work-icon"><i class='bx bxl-github'></i></a>
+                            Portfolio
+                        </h3>
+                        <div class="project__tech-stack">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">Javascript</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="work-project">
+                    <a href="https://github.com/JuliaSerrano/Arquitectura-de-Computadores"
+                        class="work__img">
+                        <img src="assets/img/procesador.jpg" alt="">
+                    </a>
+
+                    <div class="project__details">
+                        <h3 class="project__title">
+                            <a href="https://github.com/JuliaSerrano/Arquitectura-de-Computadores"
+                                class="work-icon"><i class='bx bxl-github'></i></a>
+                            I/O operations on a peripheral using interrupts
+                        </h3>
+                        <div class="project__tech-stack">
+                            <span class="tech-tag">Assembly</span>
+                        </div>
+                    </div>
+                </div>
+
+        </section>
+
+
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact__container bd-grid">
+                <form action="https://formsubmit.co/4066784a73722b9e286d9830c2b780ad" method="POST"
+                    class="contact__form">
+                    <input type="text" name="name" placeholder="Name" class="contact__input" required>
+                    <input type="email" name="email" required placeholder="Email" class="contact__input">
+                    <textarea name="message" id="" cols="0" rows="10" placeholder="Message" required
+                        class="contact__input"></textarea>
+                    <input type="submit" value="Enviar" class="contact__button button">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__title">Julia</p>
+        <div class="footer__social">
+            <a href="https://www.linkedin.com/in/julia-serrano-arrese-b68966245" class="footer__icon"><i
+                    class='bx bxl-linkedin'></i></a>
+            <a href="mailto:jserranoarrese@gmail.com" class="footer__icon"><i class='bx bxs-envelope'></i></a>
+            <a href="https://github.com/JuliaSerrano" class="footer__icon"><i class='bx bxl-github'></i></a>
+        </div>
+        <p class="footer__copy">&#169;Julia Serrano Arrese</p>
+    </footer>
+
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
+
 </html>
